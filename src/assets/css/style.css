@@ -1,0 +1,18 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background:url('../image/office.jpg');
+    background-size:cover;
+    background-position: center center;
+    min-height: 400px;
+}
+
+@media(max-width:768px) {
+.mat-drawer-opened {
+    height: 50vh!important;
+}
+}
